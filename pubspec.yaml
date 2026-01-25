@@ -1,0 +1,49 @@
+name: kings_errands
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  go_router: ^13.2.0
+  firebase_auth: ^6.1.4
+  firebase_core: ^4.4.0
+  cloud_firestore: ^6.1.2
+  url_launcher: ^6.3.2
+  google_fonts: ^8.0.0
+  provider: ^6.1.5+1
+  image_picker: ^1.2.1
+  firebase_storage: ^13.0.6
+  flutter_rating_bar: ^4.0.1
+  file_picker: ^10.3.8
+  path_provider: ^2.1.5
+  firebase_messaging: ^16.1.1
+  flutter_local_notifications: ^19.5.0
+  flutter_pdfview: ^1.4.4
+  syncfusion_flutter_pdfviewer: ^32.1.24
+  otp: ^3.2.0
+  flutter_native_splash: ^2.4.7
+  glass_kit: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/test/
+    - assets/logo/
+
+flutter_native_splash:
+  color: "#1C3FAA"
+  image: assets/logo/logo.png
+  android: true
+  ios: true
+  web: true
